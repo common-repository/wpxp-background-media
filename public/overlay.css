@@ -1,0 +1,3 @@
+.has_overlay{position:relative!important;overflow:hidden!important;}
+.overlay, .content_overlay {width:100%; height:100%; min-height:100%; margin:0; padding:0;  background-color:rgba(178, 0, 0, 0.35); position:absolute; top:0; left:0; z-index:1; display:none;}
+.content_overlay{display:block; max-width:100%; right:0; margin:0 auto; background-color:rgba(0,0,0,0.6); z-index:2;}
